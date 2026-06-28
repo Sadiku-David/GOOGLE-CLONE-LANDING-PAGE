@@ -5,7 +5,7 @@ export default function Footer() {
 
   return (
 
-    <footer className="w-full bg-[#171717]">
+    <footer className="w-full bg-footer-bg transition-colors duration-200">
 
       {/* ── Upper Tier: Region Label ── */}
       <div className="px-5 py-2 text-sm text-muted">
@@ -22,7 +22,7 @@ export default function Footer() {
             <a
               key={link}
               href="#"
-              className="text-muted hover:text-white transition-colors"
+              className="text-muted hover:text-primary transition-colors"
             >
               {link}
             </a>
@@ -45,7 +45,7 @@ export default function Footer() {
             <a
               key={link}
               href="#"
-              className="text-muted hover:text-white transition-colors"
+              className="text-muted hover:text-primary transition-colors"
             >
               {link}
             </a>
